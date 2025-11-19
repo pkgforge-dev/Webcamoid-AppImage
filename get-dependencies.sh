@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \ 
+pacman -Syu --noconfirm \
 	gst-plugins-bad  \
 	gst-plugins-base \
 	gst-plugins-good \
